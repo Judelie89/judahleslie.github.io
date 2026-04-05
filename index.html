@@ -1,173 +1,182 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>Judah Leslie | UX Design Manager</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Judah Leslie | UX Design Manager</title>
 
-  <style>
-    body {
-      margin: 0;
-      font-family: -apple-system, BlinkMacSystemFont, sans-serif;
-      background: linear-gradient(to bottom, #020617, #0f172a);
-      color: #e2e8f0;
-    }
+<style>
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+  background: radial-gradient(circle at top, #1e293b, #020617);
+  color: #e2e8f0;
+}
 
-    .container {
-      max-width: 1100px;
-      margin: auto;
-      padding: 20px;
-    }
+/* Gradient accent */
+.gradient-text {
+  background: linear-gradient(90deg, #22c55e, #38bdf8);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
 
-    h1 {
-      font-size: 48px;
-      margin-bottom: 10px;
-    }
+.container {
+  max-width: 1100px;
+  margin: auto;
+  padding: 20px;
+}
 
-    h2 {
-      margin-bottom: 10px;
-      font-size: 28px;
-    }
+/* HERO */
+.hero {
+  text-align: center;
+  padding: 120px 20px;
+}
 
-    p {
-      color: #94a3b8;
-    }
+.hero h1 {
+  font-size: 52px;
+  margin-bottom: 10px;
+}
 
-    .hero {
-      padding: 100px 20px;
-      text-align: center;
-    }
+.hero p {
+  max-width: 600px;
+  margin: auto;
+  color: #94a3b8;
+  font-size: 18px;
+}
 
-    .hero p {
-      max-width: 600px;
-      margin: auto;
-      font-size: 18px;
-    }
+/* BUTTON */
+.btn {
+  margin-top: 30px;
+  display: inline-block;
+  padding: 14px 26px;
+  border-radius: 10px;
+  background: linear-gradient(90deg, #22c55e, #4ade80);
+  color: black;
+  font-weight: bold;
+  text-decoration: none;
+  box-shadow: 0 0 20px rgba(34,197,94,0.4);
+}
 
-    .btn {
-      display: inline-block;
-      margin-top: 25px;
-      padding: 12px 24px;
-      background: #22c55e;
-      color: black;
-      border-radius: 8px;
-      text-decoration: none;
-      font-weight: bold;
-    }
+/* SECTIONS */
+section {
+  margin-top: 90px;
+}
 
-    section {
-      margin-top: 80px;
-    }
+h2 {
+  font-size: 30px;
+  margin-bottom: 15px;
+}
 
-    .grid {
-      display: grid;
-      gap: 20px;
-    }
+/* CARDS */
+.grid {
+  display: grid;
+  gap: 20px;
+}
 
-    .card {
-      background: rgba(30, 41, 59, 0.6);
-      backdrop-filter: blur(10px);
-      padding: 20px;
-      border-radius: 16px;
-      border: 1px solid rgba(255,255,255,0.05);
-    }
+.card {
+  background: rgba(15, 23, 42, 0.7);
+  border: 1px solid rgba(255,255,255,0.05);
+  border-radius: 18px;
+  padding: 22px;
+  transition: 0.3s;
+}
 
-    .skills span {
-      display: inline-block;
-      background: #1e293b;
-      padding: 8px 14px;
-      margin: 6px;
-      border-radius: 20px;
-      font-size: 14px;
-    }
+.card:hover {
+  transform: translateY(-6px);
+  border: 1px solid rgba(56,189,248,0.3);
+}
 
-    footer {
-      text-align: center;
-      margin-top: 80px;
-      color: #64748b;
-    }
-  </style>
+/* SKILLS */
+.skills span {
+  display: inline-block;
+  margin: 6px;
+  padding: 8px 14px;
+  border-radius: 20px;
+  background: #0f172a;
+  border: 1px solid #334155;
+  font-size: 14px;
+}
+
+/* FOOTER */
+footer {
+  text-align: center;
+  margin-top: 100px;
+  color: #64748b;
+}
+</style>
 </head>
 
 <body>
 
-  <div class="hero">
-    <h1>Judah Leslie</h1>
-    <p>Designing scalable SaaS experiences across FinTech & Healthcare.  
-    UX Design Manager with 8+ years of experience.</p>
-    <a href="mailto:lesliejudah@gmail.com" class="btn">Get in touch</a>
+<div class="hero">
+  <h1 class="gradient-text">Judah Leslie</h1>
+  <p>Designing scalable SaaS experiences across FinTech & Healthcare.  
+  UX Design Manager with 8+ years of experience.</p>
+  <a href="mailto:lesliejudah@gmail.com" class="btn">Let's Work Together</a>
+</div>
+
+<div class="container">
+
+<section>
+  <h2>About</h2>
+  <p>I lead UX design for complex SaaS platforms, transforming business challenges into intuitive digital experiences. I specialize in design systems, product strategy, and scalable UX.</p>
+</section>
+
+<section>
+  <h2>Experience</h2>
+  <div class="grid">
+    <div class="card">
+      <h3>UX Design Manager — Verveo</h3>
+      <p>Leading UX strategy and managing design teams for enterprise SaaS products.</p>
+    </div>
+    <div class="card">
+      <h3>UX Designer — MakerStudio</h3>
+      <p>Improved delivery speed by 20% with efficient UX processes.</p>
+    </div>
+    <div class="card">
+      <h3>UX Designer — Trias</h3>
+      <p>Enhanced usability in healthcare platforms through research-driven design.</p>
+    </div>
   </div>
+</section>
 
-  <div class="container">
-
-    <section>
-      <h2>About</h2>
-      <p>I lead UX design for complex SaaS products, translating business needs into intuitive and scalable user experiences. I specialize in design systems, research, and product strategy.</p>
-    </section>
-
-    <section>
-      <h2>Experience</h2>
-      <div class="grid">
-
-        <div class="card">
-          <h3>UX Design Manager — Verveo</h3>
-          <p>Leading UX strategy, mentoring designers, and delivering enterprise SaaS products.</p>
-        </div>
-
-        <div class="card">
-          <h3>UX Designer — MakerStudio</h3>
-          <p>Improved product delivery speed by 20% through scalable UX solutions.</p>
-        </div>
-
-        <div class="card">
-          <h3>UX Designer — Trias</h3>
-          <p>Enhanced healthcare workflows with usability-driven design improvements.</p>
-        </div>
-
-      </div>
-    </section>
-
-    <section>
-      <h2>Selected Work</h2>
-      <div class="grid">
-
-        <div class="card">
-          <h3>Clynkit</h3>
-          <p>Loan management platform with borrower + lender flows and dashboards.</p>
-        </div>
-
-        <div class="card">
-          <h3>LivQueue</h3>
-          <p>Queue management system focused on optimization and real-time flow.</p>
-        </div>
-
-      </div>
-    </section>
-
-    <section>
-      <h2>Skills</h2>
-      <div class="skills">
-        <span>UX Strategy</span>
-        <span>User Research</span>
-        <span>Design Systems</span>
-        <span>Figma</span>
-        <span>Prototyping</span>
-        <span>Team Leadership</span>
-      </div>
-    </section>
-
-    <section>
-      <h2>Contact</h2>
-      <p>Email: lesliejudah@gmail.com</p>
-      <p>Phone: +91 9791864399</p>
-      <p>Bangalore, India</p>
-    </section>
-
-    <footer>
-      <p>© 2026 Judah Leslie</p>
-    </footer>
-
+<section>
+  <h2>Selected Work</h2>
+  <div class="grid">
+    <div class="card">
+      <h3>Clynkit</h3>
+      <p>Loan management system with complete borrower + lender UX.</p>
+    </div>
+    <div class="card">
+      <h3>LivQueue</h3>
+      <p>Queue management platform focused on real-time optimization.</p>
+    </div>
   </div>
+</section>
+
+<section>
+  <h2>Skills</h2>
+  <div class="skills">
+    <span>UX Strategy</span>
+    <span>User Research</span>
+    <span>Design Systems</span>
+    <span>Figma</span>
+    <span>Prototyping</span>
+    <span>Leadership</span>
+  </div>
+</section>
+
+<section>
+  <h2>Contact</h2>
+  <p>Email: lesliejudah@gmail.com</p>
+  <p>Bangalore, India</p>
+</section>
+
+<footer>
+  <p>© 2026 Judah Leslie</p>
+</footer>
+
+</div>
 
 </body>
 </html>
