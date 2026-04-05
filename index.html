@@ -9,70 +9,81 @@
     body {
       margin: 0;
       font-family: -apple-system, BlinkMacSystemFont, sans-serif;
-      background: #0f172a;
+      background: linear-gradient(to bottom, #020617, #0f172a);
       color: #e2e8f0;
-      line-height: 1.6;
     }
 
     .container {
-      max-width: 1000px;
+      max-width: 1100px;
       margin: auto;
-      padding: 40px 20px;
+      padding: 20px;
     }
 
-    h1, h2 {
-      color: #f8fafc;
+    h1 {
+      font-size: 48px;
+      margin-bottom: 10px;
+    }
+
+    h2 {
+      margin-bottom: 10px;
+      font-size: 28px;
+    }
+
+    p {
+      color: #94a3b8;
     }
 
     .hero {
-      padding: 80px 20px;
+      padding: 100px 20px;
       text-align: center;
     }
 
-    .hero h1 {
-      font-size: 40px;
-    }
-
     .hero p {
-      color: #94a3b8;
       max-width: 600px;
       margin: auto;
+      font-size: 18px;
     }
 
     .btn {
       display: inline-block;
-      margin-top: 20px;
-      padding: 12px 20px;
+      margin-top: 25px;
+      padding: 12px 24px;
       background: #22c55e;
       color: black;
-      text-decoration: none;
       border-radius: 8px;
+      text-decoration: none;
       font-weight: bold;
     }
 
     section {
-      margin-top: 60px;
+      margin-top: 80px;
+    }
+
+    .grid {
+      display: grid;
+      gap: 20px;
     }
 
     .card {
-      background: #1e293b;
+      background: rgba(30, 41, 59, 0.6);
+      backdrop-filter: blur(10px);
       padding: 20px;
-      border-radius: 12px;
-      margin-bottom: 20px;
+      border-radius: 16px;
+      border: 1px solid rgba(255,255,255,0.05);
     }
 
     .skills span {
       display: inline-block;
-      background: #334155;
-      padding: 8px 12px;
-      margin: 5px;
-      border-radius: 6px;
+      background: #1e293b;
+      padding: 8px 14px;
+      margin: 6px;
+      border-radius: 20px;
       font-size: 14px;
     }
 
     footer {
       text-align: center;
-      margin-top: 60px;
+      margin-top: 80px;
       color: #64748b;
     }
   </style>
@@ -82,56 +93,55 @@
 
   <div class="hero">
     <h1>Judah Leslie</h1>
-    <p>UX Design Manager with 8+ years experience building SaaS, FinTech & Healthcare products.</p>
-    <a href="mailto:lesliejudah@gmail.com" class="btn">Contact Me</a>
+    <p>Designing scalable SaaS experiences across FinTech & Healthcare.  
+    UX Design Manager with 8+ years of experience.</p>
+    <a href="mailto:lesliejudah@gmail.com" class="btn">Get in touch</a>
   </div>
 
   <div class="container">
 
     <section>
       <h2>About</h2>
-      <p>
-        I’m a UX Design Manager currently at Verveo, leading end-to-end product design across SaaS platforms.
-        I specialize in translating complex business requirements into scalable, intuitive user experiences.
-      </p>
+      <p>I lead UX design for complex SaaS products, translating business needs into intuitive and scalable user experiences. I specialize in design systems, research, and product strategy.</p>
     </section>
 
     <section>
       <h2>Experience</h2>
+      <div class="grid">
 
-      <div class="card">
-        <h3>UX Design Manager — Verveo</h3>
-        <p>Nov 2024 – Present</p>
-        <p>Leading UX strategy, managing design teams, and delivering scalable SaaS solutions in FinTech and Healthcare.</p>
+        <div class="card">
+          <h3>UX Design Manager — Verveo</h3>
+          <p>Leading UX strategy, mentoring designers, and delivering enterprise SaaS products.</p>
+        </div>
+
+        <div class="card">
+          <h3>UX Designer — MakerStudio</h3>
+          <p>Improved product delivery speed by 20% through scalable UX solutions.</p>
+        </div>
+
+        <div class="card">
+          <h3>UX Designer — Trias</h3>
+          <p>Enhanced healthcare workflows with usability-driven design improvements.</p>
+        </div>
+
       </div>
-
-      <div class="card">
-        <h3>UX Designer — MakerStudio</h3>
-        <p>Nov 2023 – Oct 2024</p>
-        <p>Delivered responsive UX designs and reduced time to market by 20%.</p>
-      </div>
-
-      <div class="card">
-        <h3>UX Designer — Trias</h3>
-        <p>Jul 2023 – Oct 2023</p>
-        <p>Designed scalable systems for healthcare platforms and improved usability workflows.</p>
-      </div>
-
     </section>
 
     <section>
-      <h2>Projects</h2>
+      <h2>Selected Work</h2>
+      <div class="grid">
 
-      <div class="card">
-        <h3>Clynkit (Loan Management SaaS)</h3>
-        <p>Designed borrower and lender flows, dashboards, and complete UX system.</p>
+        <div class="card">
+          <h3>Clynkit</h3>
+          <p>Loan management platform with borrower + lender flows and dashboards.</p>
+        </div>
+
+        <div class="card">
+          <h3>LivQueue</h3>
+          <p>Queue management system focused on optimization and real-time flow.</p>
+        </div>
+
       </div>
-
-      <div class="card">
-        <h3>LivQueue (Queue Management Product)</h3>
-        <p>Built UX for queue optimization and user flow management system.</p>
-      </div>
-
     </section>
 
     <section>
@@ -141,9 +151,8 @@
         <span>User Research</span>
         <span>Design Systems</span>
         <span>Figma</span>
-        <span>Wireframing</span>
         <span>Prototyping</span>
-        <span>Team Management</span>
+        <span>Team Leadership</span>
       </div>
     </section>
 
@@ -151,7 +160,7 @@
       <h2>Contact</h2>
       <p>Email: lesliejudah@gmail.com</p>
       <p>Phone: +91 9791864399</p>
-      <p>Location: Bangalore</p>
+      <p>Bangalore, India</p>
     </section>
 
     <footer>
