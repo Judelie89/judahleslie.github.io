@@ -13,3 +13,6 @@ document.addEventListener("DOMContentLoaded", () => {
     }, index * 150);
   });
 });
+function openProject(project) {
+  alert("Case study coming soon: " + project);
+}
